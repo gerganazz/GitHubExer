@@ -22,8 +22,8 @@ class MainClass
 
 		}
 			
-		Console.WriteLine ("Bla bla: {0}.", treatedPatients);
-		Console.WriteLine ("Unblabla: {0}.", untreatedPatients);
+		Console.WriteLine ("Alabala: {0}.", treatedPatients);
+		Console.WriteLine ("Mubababa: {0}.", untreatedPatients);
 
 	}
 }
