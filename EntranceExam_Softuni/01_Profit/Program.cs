@@ -9,10 +9,10 @@ class MainClass
 		var exchUsdBgn = double.Parse (Console.ReadLine ());
 
 		var monthWageUsd = workDays * dayWageUsd;
-		var yearWageUsd = 30 * monthWageUsd + 2.5 * monthWageUsd;	// plus bonus of 2.5 month wage
+		var yearWageUsd = 12 * monthWageUsd + 2.5 * monthWageUsd;	// plus bonus of 2.5 month wage
 		yearWageUsd = yearWageUsd * 0.75;	// les taxes of 25%
 		var yearWageBgn = yearWageUsd * exchUsdBgn;
-		var dailyProfit = yearWageBgn / 260;
+		var dailyProfit = yearWageBgn / 365;
 
 		Console.WriteLine ("{0:f2}", dailyProfit);
 	}
